@@ -1,0 +1,102 @@
+body {
+    background: brown;
+    color: black;
+    margin: 0px;
+    margin-bottom: 42px;
+}
+
+header {
+    margin: 20px;
+    font-size: 32px;
+    font-family: "Bitter", serif;
+    border-bottom: solid 2px rgb(255, 238, 1)
+}
+
+h1 {
+    margin: 20px;
+    font-size: 32px;
+}
+
+section {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+h1{
+    margin: 20px;
+    font-size: 32px;
+}
+
+section {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+h2{
+    margin: 20px;
+    font-size: 32px;
+}
+
+img{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    opacity:0.75 ;
+}
+
+.categoria-videos2{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    opacity: 0.75;
+}
+
+.primeira-temporada{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.segunda-temporada{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.categoria-videos:hover{
+    opacity: 1.0;
+    border: 4px inset rgb(255, 255, 0);
+}
+
+.categoria-videos2:hover{
+    opacity: 1.0;
+    border: 4px inset rgb(255, 255, 0);
+}
+
+.primeira-temporada img{
+    opacity:0.75;
+}
+
+.segunda-temporada img{
+    opacity:0.75;
+}
+
+.primeira-temporada img:hover{
+    opacity: 2;
+    border: 4px inset rgb(255, 255, 0);
+}
+
+.segunda-temporada img:hover{
+    opacity: 2;
+    border: 4px inset rgb(255, 255, 0);
+}
